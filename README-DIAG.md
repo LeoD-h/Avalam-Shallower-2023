@@ -20,13 +20,13 @@ make
    ```bash
    cd build
    source dyn.sh
-   ./standalone.exe [numDiag] [fen]
+   ./diag.exe [numDiag] [fen]
    ```
 
    Par exemple :
 
    ```bash
-   ./standalone.exe 2 "tdtUDU40 r"
+   ./diag.exe 2 "tdtUDU40 r"
    ```
 
    Si vous ne fournissez pas d'arguments, le programme peut être exécuté sans eux.
