@@ -5,14 +5,14 @@ Ce programme sert de simulateur pour le jeu Avalam. Il permet aux utilisateurs d
 
 ## Comment Utiliser
 
-1. **Compiler le Programme:**
+1. **Compilation du Programme:**
    - Assurez-vous d'avoir un compilateur C installé sur votre système.
    - Compilez le programme à l'aide du code source fourni. Par exemple :
      ```bash
      make
      ```
 
-2. **Exécuter le Programme:**
+2. **Exécution du Programme:**
    - Exécutez le binaire compilé en fournissant les arguments nécessaires en ligne de commande :
      ```bash
      ./standalone.exe [NOM_FICHIER_JSON]
@@ -44,4 +44,3 @@ Cette commande lance une partie, permettant à l'utilisateur de spécifier un no
 - Ce programme suppose une compilation correcte et un lien avec les bibliothèques nécessaires.
 - Consultez les commentaires du code source pour plus de détails sur l'implémentation des fonctions.
 - Pour une utilisation avancée et les règles détaillées d'Avalam, consultez la documentation officielle d'Avalam.
-
