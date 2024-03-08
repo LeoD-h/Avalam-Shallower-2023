@@ -1,22 +1,35 @@
+
 # Programme diag
 
 Le programme diag est un utilitaire en ligne de commande permettant de générer des fichiers JavaScript contenant des données au format JSON pour une utilisation ultérieure dans un outil de diagnostic web.
+
+## Compilation
+
+Avant d'exécuter le programme, assurez-vous de le compiler en utilisant la commande make. Naviguez d'abord vers le répertoire contenant le code source, puis exécutez :
+
+```bash
+make
+```
 
 ## Utilisation
 
 1. **Exécution du programme :**
 
-   Pour exécuter le programme, utilisez la commande suivante dans le terminal :
+   Après la compilation, utilisez la commande suivante dans le terminal :
 
    ```bash
-   ./diag.exe <numDiag> <fen>
+   cd build
+   source dyn.sh
+   ./standalone.exe [numDiag] [fen]
    ```
 
    Par exemple :
 
    ```bash
-   ./diag.exe 2 "tdtUDU40 r"
+   ./standalone.exe 2 "tdtUDU40 r"
    ```
+
+   Si vous ne fournissez pas d'arguments, le programme peut être exécuté sans eux.
 
 2. **Saisie de l'adresse du fichier de destination :**
 
@@ -59,7 +72,7 @@ Le programme diag est un utilitaire en ligne de commande permettant de générer
 1. Exécutez le programme avec les paramètres nécessaires.
 
    ```bash
-   ./diag.exe 2 "tdtUDU40 r"
+   ./standalone.exe 2 "tdtUDU40 r"
    ```
 
 2. Saisissez l'adresse du fichier de destination.
@@ -89,7 +102,5 @@ Le programme diag est un utilitaire en ligne de commande permettant de générer
    ```bash
    Réussite !
    ```
-
----
-
-Vous pouvez personnaliser ce README en fonction des fonctionnalités spécifiques de votre programme et de vos préférences de style.
+  
+Assurez-vous d'adapter ces instructions en fonction de la structure réelle de votre programme et de vos besoins spécifiques.
