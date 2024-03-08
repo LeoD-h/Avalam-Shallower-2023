@@ -1,0 +1,99 @@
+.
+├── arbo
+├── build
+│   ├── diag.exe
+│   ├── diag.static
+│   ├── dyn.sh
+│   ├── exemple.exe
+│   ├── exemple.static
+│   ├── lib
+│   │   ├── libavalam.a
+│   │   └── libavalam.so
+│   ├── liv1.arm.diag.static
+│   ├── liv1.arm.standalone.static
+│   ├── liv1.x86.diag.static
+│   ├── liv1.x86.standalone.static
+│   ├── standalone.exe
+│   ├── standalone.static
+│   ├── test.js.js
+│   └── web
+│       ├── avalam-diag.html
+│       ├── avalam-refresh.html
+│       ├── avalam-standalone.html
+│       ├── data
+│       │   ├── avalam-refresh.js
+│       │   ├── diag.js
+│       │   ├── n.js
+│       │   └── refresh-data.js
+│       ├── exemples
+│       │   ├── description
+│       │   ├── diag_another.js
+│       │   ├── diag_initial.js
+│       │   ├── diag_test.js
+│       │   └── refresh-data.js
+│       ├── js
+│       │   ├── avalam.js
+│       │   ├── initial.js
+│       │   └── jquery.js
+│       └── ressources
+│           ├── avalam_numerote.png
+│           ├── avalam_numerote.svg
+│           ├── avalam_vide.png
+│           ├── jaune2.png
+│           ├── jaune.png
+│           ├── rouge2.png
+│           └── rouge.png
+├── diag
+│   ├── diag.c
+│   ├── diag.exe
+│   ├── diag.static
+│   ├── makefile
+│   └── test
+├── exemple
+│   ├── exemple.c
+│   ├── exemple.exe
+│   ├── exemple.static
+│   └── makefile
+├── include
+│   ├── avalam.h
+│   └── topologie.h
+├── libavalam
+│   ├── libavalam.a
+│   ├── libavalam.c
+│   ├── libavalam.o
+│   ├── libavalam.so
+│   └── makefile
+├── makefile
+├── standalone
+│   ├── makefile
+│   ├── standalone.c
+│   ├── standalone.exe
+│   └── standalone.static
+└── web
+    ├── avalam-diag.html
+    ├── avalam-refresh.html
+    ├── avalam-standalone.html
+    ├── data
+    │   ├── diag.js
+    │   ├── refresh.js
+    │   └── test.js
+    ├── exemples
+    │   ├── description
+    │   ├── diag_another.js
+    │   ├── diag_initial.js
+    │   ├── diag_test.js
+    │   └── refresh-data.js
+    ├── js
+    │   ├── avalam.js
+    │   ├── initial.js
+    │   └── jquery.js
+    └── ressources
+        ├── avalam_numerote.png
+        ├── avalam_numerote.svg
+        ├── avalam_vide.png
+        ├── jaune2.png
+        ├── jaune.png
+        ├── rouge2.png
+        └── rouge.png
+
+17 directories, 79 files
