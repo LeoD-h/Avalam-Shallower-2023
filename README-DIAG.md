@@ -72,7 +72,7 @@ make
 1. Exécutez le programme avec les paramètres nécessaires.
 
    ```bash
-   ./standalone.exe 2 "tdtUDU40 r"
+   ./diag.exe 2 "tdtUDU40 r"
    ```
 
 2. Saisissez l'adresse du fichier de destination.
