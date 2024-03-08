@@ -41,13 +41,12 @@ Ce document détaille la répartition du temps entre les membres de l'équipe (L
 - CR : 1 heure
 - Excel : 20 Minutes 
 - GIT : 1 heures
-- Test : 20 minutes
 
 ### Kilian
 - Aide sur le diagramme du Fen : 30 minutes
 - CR : 1 heure
 - Excel : 1 heure
-- Test : 20 minutes
+- Test : 30 minutes
 
 
 ## Conclusion
